@@ -10,6 +10,7 @@
 <body>
 <h1>Talking Avatar Service Demo</h1>
 
+
 <div id="configuration">
   <h2 style="background-color: white; width: 300px;">Azure Speech Resource</h2>
   <label style="font-size: medium;" for="region">Region:</label>
@@ -19,18 +20,18 @@
     <option value="southeastasia">Southeast Asia</option>
   </select>
   <label style="font-size: medium;" for="subscriptionKey">Subscription Key:</label>
-  <input id="subscriptionKey" type="password" size="32" style="font-size: medium;" />
+  <input id="0c6d5a294a11427b933ea282b5a7a6b1" type="password" size="32" style="font-size: medium;" />
   <div style="background-color: white; width: 300px;">
     <input type="checkbox" id="enablePrivateEndpoint" onchange = "window.updatePrivateEndpoint()">Enable Private Endpoint</input><br />
   </div>
   <div id = "showPrivateEndpointCheckBox" hidden="hidden">
     <label style="font-size: medium;" for="privateEndpoint">Private Endpoint:</label>
-    <input id="privateEndpoint" type="text" size="64" style="font-size: medium;" placeholder="https://{your custom name}.cognitiveservices.azure.com/"></input><br />
+    <input id="https://southeastasia.api.cognitive.microsoft.com/" type="text" size="64" style="font-size: medium;" placeholder="https://{your custom name}.cognitiveservices.azure.com/"></input><br />
   </div><br />
 
   <h2 style="background-color: white; width: 300px;">TTS Configuration</h2>
   <label style="font-size: medium;" for="ttsVoice">TTS Voice:</label>
-  <input id="ttsVoice" type="text" size="32" style="font-size: medium;" value="en-US-AvaMultilingualNeural"></input><br />
+  <input id="vi-VN-HoaiMyNeural" type="text" size="32" style="font-size: medium;" value="en-US-AvaMultilingualNeural"></input><br />
   <label style="font-size: medium;" for="customVoiceEndpointId">Custom Voice Deployment ID (Endpoint ID):</label>
   <input id="customVoiceEndpointId" type="text" size="32" style="font-size: medium;" value=""></input><br />
   <label style="font-size: medium;" for="personalVoiceSpeakerProfileID">Personal Voice Speaker Profile ID:</label>
